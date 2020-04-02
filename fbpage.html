@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceBook Login Form</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+    <form action="/myaction.php" name="myForm" onsubmit="return validateForm()" method="POST">
+    <div class="div1">
+
+
+        <div class="face">
+            <div class="face-img">
+
+                <a href="www.facebook.com">
+                    <img src="images/face.jpg">
+                </a>
+            </div>
+
+
+            <div class="login">
+                <table>
+                    <tr>
+                        <td>
+                            <p>Email or phone</p>
+                        </td>
+                        <td>
+                            <p>Password</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="inptext" name="femail" required></td>
+                        <td><input type="password" class=inptext  required></td>
+                        <td><input type="submit" class="button" value="Log In"></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><a href="s">Forgotten account?</a></p>
+                        </td>
+                    </tr>
+
+
+                </table>
+                <!-- <input type="text"> -->
+            </div>
+
+        </div>
+        <!-- Please Fill this Form -->
+
+
+    </div>
+</form>
+    <!-- <div>1</div> -->
+    <form action="/myaction2.php" name="myForm2" onsubmit="return validateForm2()" method="POST">
+    <div class="backcolor">
+        <div class="content">
+
+            <div class="leftdiv">
+                <h3>Facebook helps you connect and share with the people in your life.</h3>
+                <img src="images/face1.png">
+            </div>
+
+            
+            <div class="rightdiv">
+                <h1>Create an account</h1>
+                <p>It's quick and easy.</p>
+                <table>
+                    <tr >
+                         <td>
+                                    <div  class="fn">
+                                    <input type="text" placeholder="First name" class="fname" name="fname" required >
+                                    <input type="text" placeholder="Surname" class="fname" name="sname"  required>
+                                    </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><input type="text" placeholder="Mobile number or email address" class="mobpwd" name=pemail >
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><input type="text" placeholder="New password" class="mobpwd" name="pass" ></td>
+                    </tr>
+                    <tr class="space">
+                        <td></td>
+                    </tr>
+                    <tr class="birth">
+
+                        <td>
+                            <p>Birthday</p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <select id="dmy" required>
+                                <option value=""></option>
+                                <option value="0">Day</option>
+                                <option>1</option>
+                            </select>
+                            <select id="dmy" required>
+                                <option value=""></option>
+                                <option value="0">Month</option>
+                                <option>Jan</option>
+                            </select>
+                            <select id="dmy" required>
+                                <option value=""></option>       
+                                <option value="0">Year</option>
+                                <option>1998</option>
+                            </select>
+                            <span class="dot">?</span>
+                        </td>
+                    </tr>
+                    <tr class="gender">
+
+                        <td>
+                            <p>Gender</p>
+                        </td>
+
+                    </tr>
+                    <tr class="fmc">
+                        <td colspan="4">
+                            <input class="fmc" type="radio" id="female" name="gender" value="female" >
+                            <label>Female</label>
+                            <input type="radio" id="male" name="gender" value="male" >
+                            <label>Male</label>
+                            <input type="radio" id="custom" name="gender" value="custom" >
+                            <label>Custom</label>
+                            <span class="dot">?</span>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="para">
+                                <p>By clicking Sign Up, you agree to our <a
+                                        style="text-decoration: none; color: #3858AE;" href="www.facebook.com">Terms,
+                                        Data Policy</a> and <a style="text-decoration: none; color: #3858AE;"
+                                        href="www.facebook.com">Cookie Policy</a>. You may receive
+                                    SMS notifications from us and can opt out at any
+                                    time</p>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td >
+                            <div class="signup">
+                            <input type="submit" class="buton"  value="Sign Up" onClick="ValidateForm(this.form)"></td>
+                            </div>
+                    </tr>
+                    <tr>
+                        <td><p style="font-size: 12px; margin-top: 20px;"><a id="last" style="text-decoration: none;  color: #3878BC; font-family: Arial;" href="#">Create a Page</a> for a celebrity, band or business.</p></td>
+                    </tr>
+
+
+                </table>
+            </div>
+        </form>
+
+
+        </div>
+        <div class="white">
+            
+                    </div>
+            
+    </div>
+
+</body>
+<script src="script/fbscript.js"></script>
+
+</html>
